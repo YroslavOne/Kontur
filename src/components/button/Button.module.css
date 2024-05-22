@@ -1,0 +1,41 @@
+.button {
+	border: none;
+	cursor: pointer;
+	/* position: relative; */
+	background: url(./../../../public/image/Arrow.png);
+	background-repeat: no-repeat;
+	background-position-x: 213px;
+	background-position-y: center;
+	background-position: right 38px center;
+	background-color: #F15525;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Gilroy;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 19.34px;
+	letter-spacing: -0.03em;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 27px 63px 27px 45px;
+	border-radius: 82px;
+	height: 70px;
+	width: 265px;
+
+
+
+}
+
+.button:hover {
+	border: none;
+	background-color: #38BFF2;
+}
+
+.arrow {
+	/* width: 100px;
+	height: 100px; */
+	/* position: absolute; */
+	background: url(./../../../public/image/Arrow.png);
+	background-repeat: no-repeat;
+}
