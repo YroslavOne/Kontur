@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+    font-family: Gilroy;
+font-size: 36px;
+font-weight: 500;
+line-height: 37.58px;
+text-align: center;
+ 
+}
+.logo>span:nth-child(1){
+    color: #38BFF2;
+
+}
+.logo>span:nth-child(2){
+    color: #F15525;
+
+}
+.logo-and-links {
+  display: flex;
+}
+
+.logo-and-text {
+  display: flex;
+}
+.description-for-logo {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #8e8e8e;
+}
+.icon>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-link{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: #22253B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+

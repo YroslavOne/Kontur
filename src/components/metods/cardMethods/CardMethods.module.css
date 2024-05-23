@@ -1,0 +1,40 @@
+.div {
+  display: flex;
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+.img {
+  border-radius: 40px;
+}
+.text {
+  background-color: #eaf2f5;
+  border-radius: 40px;
+  width: 730px;
+}
+.women {
+  flex-direction: row-reverse;
+}
+.title {
+  margin-top: 55px;
+  margin-left: 100px;
+  text-align: left;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.description {
+  margin-left: 100px;
+  width: 549px;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+.description >span {
+    display: block;
+  width: 435px;
+}

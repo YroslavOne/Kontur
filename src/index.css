@@ -22,7 +22,7 @@
 
 @font-face {
 	font-family: 'Gilroy';
-	src: local('Gilroy-Light'), url('../public/fonts/Gilroy-Light.ttf') format('truetype');
+	src: local('Gilroy-Bold'), url('../public/fonts/Gilroy-Medium.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
 }
@@ -45,9 +45,7 @@ a:hover {
 }
 
 body {
-	margin-left: 120px;
-	margin-right: 120px;
-	margin: 0;
+	padding: 0 90px;
 	display: flex;
 	place-items: center;
 	min-width: 320px;
