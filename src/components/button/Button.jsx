@@ -1,8 +1,9 @@
 import styles from './Button.module.css';
+import cn from 'classnames';
 
-function Button({ text, style }) {
+function Button({ text, style, className }) {
   return (
-    <button className={styles[style]}>
+    <button className={cn(styles['button'], className)}>
       <div>{text}</div>
     </button>
   );

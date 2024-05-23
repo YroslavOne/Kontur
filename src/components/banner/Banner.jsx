@@ -4,6 +4,9 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Card from './card/Card';
 import styles from './Banner.module.css';
+import team from '../../../public/image/banner/team.png';
+import think from '../../../public/image/banner/think.png';
+import work from '../../../public/image/banner/work.png';
 
 function Banner() {
   const slider = React.useRef(null);
@@ -12,6 +15,7 @@ function Banner() {
     dots: false,
     infinite: false,
     arrows: false,
+    with: '100px',
   };
 
   return (
@@ -21,7 +25,7 @@ function Banner() {
           <Card
             title={element.title}
             description={element.description}
-            styleImg={element.classImg}
+            image={element.image}
           />
         ))}
       </Slider>
@@ -51,18 +55,23 @@ const ArrayBanner = [
     ),
     description:
       'Закажите звонок, и наш специалист свяжется с вами в ближайшее время',
-    classImg: 'work',
+    image: work,
   },
   {
-    title: (<>Обучение<br/> через практику</>),
+    title: (
+      <>
+        Обучение
+        <br /> через практику
+      </>
+    ),
     description:
       'Всё, что вы узнали, вы тут же начинаете применять на практике. Вы сразу видите результаты своего труда.',
-    classImg: 'think',
+    image: think,
   },
   {
     title: 'Весь материал разбит на небольшие уроки',
     description:
       'Теория и практика подаются маленькими порциями. Так вам будет легче усваивать новые знания.',
-    classImg: 'team',
+    image: team,
   },
 ];

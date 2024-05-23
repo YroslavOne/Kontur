@@ -1,22 +1,24 @@
 import styles from './Card.module.css';
 import Button from '../../button/Button';
 
-function Card({ title, description, styleImg }) {
+function Card({ title, description, image }) {
   return (
     <div className={styles['card']}>
-      <div>
+      <div className={styles['block']}>
         <h2 className={styles['h2']}>{title}</h2>
         <hr
-          align="left"
-          width="365px"
+          align="center"
+          // width="365px"
           size="1"
           color="#DEDEDE
 "
         />
         <p className={styles['p']}>{description}</p>
-        <Button style="button" text="Заказать звонок" />
+        <Button className={styles['button']} text="Заказать звонок" />
       </div>
-      <div className={styles[styleImg]}></div>
+      <div className={styles['img']}>
+        <img src={image} />
+      </div>
     </div>
   );
 }

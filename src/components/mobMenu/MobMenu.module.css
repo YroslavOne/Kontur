@@ -1,0 +1,50 @@
+.menu {
+	background-color: #FFFFFFE5;
+	opacity: 0.9;
+	border-radius: 75px;
+}
+
+.logo {
+	font-family: Gilroy;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 25.06px;
+	text-align: center;
+}
+
+.logo>span:nth-child(1) {
+	color: #38bff2;
+}
+
+.logo>span:nth-child(2) {
+	color: #f15525;
+}
+
+.phone {
+	font-family: Gilroy;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	text-align: center;
+	color: #38BFF2;
+}
+
+.button {
+	width: 17px;
+	padding: 0;
+	margin: 0;
+	background: none;
+	border: none;
+}
+
+.button>hr {
+	background-color: #F15525;
+	height: 1px;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.button>hr:nth-child(2) {
+	margin: 4px 0;
+}

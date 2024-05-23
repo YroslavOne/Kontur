@@ -1,6 +1,6 @@
 .banner {
 	margin-top: 23px;
-	max-width: 1160px;
+	width: 1160px;
 	height: 100%;
 	position: relative;
 }
@@ -43,4 +43,23 @@
 	background-color: #F15525;
 	background-image: url(../../../public/image/arrow/whiteArrow.png);
 	transform: rotate(180deg);
+}
+
+@media screen and (max-width: 500px) {
+	.banner {
+		margin-top: 23px;
+		max-width: 97%;
+		height: 100%;
+		position: relative;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.next {
+		display: none;
+	}
+
+	.prev {
+		display: none;
+	}
 }

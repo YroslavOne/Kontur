@@ -1,0 +1,36 @@
+.div {
+	left: 0;
+	top: 0px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background-color: #FFFFFF;
+}
+
+.close {
+	width: 100%;
+	position: relative;
+}
+
+.close>img {
+	position: absolute;
+	top: 32px;
+	right: 30px;
+}
+
+.a {
+	font-family: Gilroy;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: left;
+	color: #22253B;
+}
+
+.div>ul {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-top: 80px;
+}
