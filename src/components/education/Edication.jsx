@@ -4,8 +4,8 @@ import { ArrEdication } from "./ArrEdication";
 
 function Edication() {
   return (
-    <>
-      <h1>Обучение в CoDe – это удобно и результативно</h1>
+    <div className={styles["block"]}>
+      <h1 className={styles["h1"]}>Обучение в CoDe – это удобно и результативно</h1>
       <div className={styles["div"]}>
         {ArrEdication.map((el) => (
           <Element
@@ -16,7 +16,7 @@ function Edication() {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 }
 export default Edication;

@@ -4,7 +4,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Card from './card/Card';
 import styles from './Banner.module.css';
-// import { ArrayBanner } from './ArrayBanner';
 
 function Banner() {
   const slider = React.useRef(null);
@@ -13,9 +12,6 @@ function Banner() {
     dots: false,
     infinite: false,
     arrows: false,
-    // speed: 500,
-    // slidesToShow: 1,
-    // slidesToScroll: 1,
   };
 
   return (
@@ -58,7 +54,7 @@ const ArrayBanner = [
     classImg: 'work',
   },
   {
-    title: 'Обучение через практику',
+    title: (<>Обучение<br/> через практику</>),
     description:
       'Всё, что вы узнали, вы тут же начинаете применять на практике. Вы сразу видите результаты своего труда.',
     classImg: 'think',

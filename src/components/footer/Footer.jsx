@@ -53,8 +53,10 @@ function Footer() {
       <div className={styles["logo-and-links"]}>
         <div className={styles["logo-and-icon"]}>
           <div className={styles["logo-and-text"]}>
-            <p className={styles["logo"]}> <span>C</span>o<span>D</span>e</p>
-            {/* <img className={styles["logo"]} src={logo} alt="" /> */}
+            <p className={styles["logo"]}>
+              {" "}
+              <span>C</span>o<span>D</span>e
+            </p>
             <p className={styles["description-for-logo"]}>
               Школа <br />
               программирования
@@ -79,9 +81,9 @@ function Footer() {
               </li>
             ))}
           </ul>
-          <div>
-            <a className={styles["phone"]} href="tel:+7 (499) 348 93 96">
-              +7 (499) 348 93 96
+          <div className={styles["phone-and-mailto"]}>
+            <a className={styles["phone"]} href="tel:+7 (999) 999 99 99">
+              +7 (999) 999 99 99
             </a>
             <a className={styles["mailto"]} href="mailto:info@code.ru">
               info@code.ru
@@ -89,12 +91,13 @@ function Footer() {
           </div>
         </div>
       </div>
-      <hr></hr>
+      
+      <hr className={styles["line"]}/>
       <div className={styles["past-line"]}>
         <div>
           <p className={styles["text"]}>© 2023 — Все права защищены</p>
         </div>
-        <div>
+        <div className={styles["agreement"]}>
           <a href="/" className={styles["text"]}>
             Пользовательское соглашение
           </a>

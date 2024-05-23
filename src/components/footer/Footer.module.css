@@ -2,25 +2,23 @@
   display: flex;
   flex-direction: column;
 }
-
-.logo {
-    font-family: Gilroy;
-font-size: 36px;
-font-weight: 500;
-line-height: 37.58px;
-text-align: center;
- 
-}
-.logo>span:nth-child(1){
-    color: #38BFF2;
-
-}
-.logo>span:nth-child(2){
-    color: #F15525;
-
-}
 .logo-and-links {
   display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin: 0;
+  font-family: Gilroy;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 37.58px;
+  text-align: center;
+}
+.logo > span:nth-child(1) {
+  color: #38bff2;
+}
+.logo > span:nth-child(2) {
+  color: #f15525;
 }
 
 .logo-and-text {
@@ -37,19 +35,98 @@ text-align: center;
   text-align: left;
   color: #8e8e8e;
 }
-.icon>ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.icon > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.icon-link{
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    background-color: #22253B;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 16px;
+.icon-link {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: #22253b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+.icon-link:hover {
+  background-color: #f15525;
+}
+.links-and-contact {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+.links-and-contact > ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
+.link > a {
+  cursor: pointer;
+  font-family: Gilroy;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13.57px;
+  text-align: left;
+  color: #22253b;
+}
+
+.link > a:hover {
+  color: #f15525;
+}
+.phone-and-mailto {
+  display: flex;
+  flex-direction: column;
+}
+.phone {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  color: #38bff2;
+}
+.mailto {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  color: #22253b;
+}
+.line {
+  color: #d8d8d8;
+  height: 1px;
+  width: 100%;
+  padding: 0;
+  margin: 52px 0 28px 0;
+}
+.past-line {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  list-style: none;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  color: #8e8e8e;
+  padding: 0;
+  margin: 0;
+}
+.agreement {
+  display: flex;
+  justify-content: space-between;
+  width: 612px;
+}
+.agreement>a:hover{
+    color: #8e8e8e;
+}

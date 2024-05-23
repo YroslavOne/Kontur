@@ -36,6 +36,7 @@
 }
 
 .p {
+	max-width: 365px;
 	font-family: Gilroy;
 	font-size: 16px;
 	font-weight: 400;

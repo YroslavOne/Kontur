@@ -8,10 +8,10 @@ function Menu() {
           <div className={styles['logo']}></div>
         </a>
         <ul className={styles['ul']}>
-          <li>Чему вы научитесь</li>
-          <li>Процесс обучения</li>
-          <li>Стоимость</li>
-          <li>Контакты</li>
+          <li><a className={styles['a']} href='/'>Чему вы научитесь</a></li>
+          <li><a className={styles['a']} href='/'>Процесс обучения</a></li>
+          <li><a className={styles['a']} href='/'>Стоимость</a></li>
+          <li><a className={styles['a']} href='/'>Контакты</a></li>
         </ul>
       </div>
       <a href="tel:+7 (499) 348 93 96">+7 (499) 348 93 96</a>
