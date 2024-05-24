@@ -11,6 +11,7 @@ function Edication() {
       <div className={styles['div']}>
         {ArrEdication.map((el) => (
           <Element
+          className={styles['suprise']}
             title={el.title}
             key={el.key}
             description={el.description}

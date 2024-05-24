@@ -1,80 +1,105 @@
 .div {
-	width: 270px;
-	height: 254px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: #eaf2f5;
-	border-radius: 30px;
-	margin: 13.5px 13.5px;
+  width: 270px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaf2f5;
+  border-radius: 30px;
+  margin: 13.5px 13.5px;
 }
 
 .image {
-	max-width: 100%;
-	max-height: 100%;
-	margin-top: 50px;
-
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 50px;
 }
 
 .title {
-	font-family: Gilroy;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 18.5px;
-	text-align: center;
-	color: #22253b;
-	margin: 18px 52px 0 52px;
-	width: 200px;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.5px;
+  text-align: center;
+  color: #22253b;
+  margin: 18px 52px 0 52px;
+  width: 200px;
 }
 
 .description {
-	font-family: Gilroy;
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 15px;
-	text-align: center;
-	color: #22253b;
-	margin: 10px 35px 0px 35px;
-
+  font-family: Gilroy;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  color: #22253b;
+  margin: 10px 35px 0px 35px;
 }
 
 @media screen and (max-width: 576px) {
+  .div {
+    width: 145px;
+    height: 175px;
+    border-radius: 20px;
+    margin: 5px;
+  }
 
-	.div {
-		width: 145px;
-		height: 175px;
-		border-radius: 20px;
-		margin: 5px;
+  .image {
+    max-width: 40px;
+    max-height: auto;
+    margin-top: 27px;
+  }
 
-	}
+  .title {
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    margin: 7px 8px 5px 8px;
+    color: #22253b;
+    width: 128px;
+  }
 
-	.image {
-		max-width: 40px;
-		max-height: auto;
-		margin-top: 27px;
+  .description {
+    font-family: Gilroy;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    color: #22253b;
+    margin: 0px 9px 0px 9px;
+  }
+  .div:last-child {
+    flex-direction: row;
+    width: 300px;
+    height: 86px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .div:last-child > div > .title {
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  .div:last-child > div > p {
+    font-family: Gilroy;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
 
-	}
-
-	.title {
-		font-family: Gilroy;
-		font-size: 12px;
-		font-weight: 400;
-		line-height: 12px;
-		text-align: center;
-		margin: 7px 8px 5px 8px;
-		color: #22253b;
-		max-width: 128px;
-	}
-
-	.description {
-		font-family: Gilroy;
-		font-size: 9px;
-		font-weight: 400;
-		line-height: 12px;
-		text-align: center;
-		color: #22253b;
-		margin: 0px 9px 0px 9px;
-
-	}
+    width: 154px;
+    margin: 0;
+  }
+  .div:last-child > img {
+    margin: 0;
+    padding: 0;
+  }
 }

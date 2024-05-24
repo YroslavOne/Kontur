@@ -26,11 +26,17 @@
 	line-height: 20px;
 	text-align: left;
 	color: #22253B;
+
 }
 
 .div>ul {
 	display: flex;
-	align-items: flex-start;
+	align-items: start;
 	flex-direction: column;
 	margin-top: 80px;
+	margin-left: 43px;
+}
+
+.div>ul>li {
+	margin-top: 11px;
 }

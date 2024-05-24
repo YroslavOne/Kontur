@@ -26,10 +26,10 @@ const Gallery = () => {
     }, []);
   
     return (
-      <div className={styles.gridContainer}>
+      <div className={styles['gridContainer']}>
         {images.map((image, index) => (
-          <a key={index} data-fancybox="gallery" href={image.src} data-caption={image.alt} className={image.large ? styles.large : styles.small}>
-            <img src={image.src} alt={image.alt} className={styles.image} />
+          <a key={index} data-fancybox="gallery" href={image.src} data-caption={image.alt} className={image.large ? styles['large'] : styles['small']}>
+            <img src={image.src} alt={image.alt} className={styles['image']} />
           </a>
         ))}
       </div>

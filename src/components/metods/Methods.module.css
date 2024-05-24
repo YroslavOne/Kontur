@@ -1,3 +1,8 @@
 .div{
     margin: 46.5px 30px 28px 30px;
 }
+@media screen and (max-width: 576px) {
+    .div{
+    margin: 25px 10px 24px 10px;
+    }
+}

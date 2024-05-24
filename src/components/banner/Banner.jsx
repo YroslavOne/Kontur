@@ -8,7 +8,7 @@ import team from '../../../public/image/banner/team.png';
 import think from '../../../public/image/banner/think.png';
 import work from '../../../public/image/banner/work.png';
 
-function Banner() {
+function Banner({setCallBack}) {
   const slider = React.useRef(null);
 
   var settings = {
@@ -23,6 +23,7 @@ function Banner() {
       <Slider ref={slider} {...settings}>
         {ArrayBanner.map((element) => (
           <Card
+          setCallBack={setCallBack}
             title={element.title}
             description={element.description}
             image={element.image}

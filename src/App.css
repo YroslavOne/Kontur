@@ -36,9 +36,9 @@
 	}
 }
 
-.card {
+/* .card {
 	padding: 2em;
-}
+} */
 
 .read-the-docs {
 	color: #888;
@@ -49,5 +49,6 @@
 		margin: 0 auto;
 		padding: 0;
 		text-align: center;
+		min-width: 319px;
 	}
 }

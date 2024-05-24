@@ -57,7 +57,7 @@
 	background: url(./../../../../public/image/Arrow.png);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
 	.card {
 		width: 100%;
 		flex-direction: column;

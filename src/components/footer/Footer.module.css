@@ -127,6 +127,135 @@
   justify-content: space-between;
   width: 612px;
 }
-.agreement>a:hover{
+.agreement > a:hover {
+  color: #8e8e8e;
+}
+
+@media screen and (max-width: 576px) {
+  .logo-and-links {
+    flex-direction: column;
+    margin-bottom: 7px;
+  }
+
+  .logo-and-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .description-for-logo {
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
     color: #8e8e8e;
+  }
+  ul {
+    padding: 0;
+  }
+  .icon-link {
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+
+  .links-and-contact {
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .links-and-contact > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 43px;
+  }
+.link{
+    margin-top: 25px;
+}
+  .link > a {
+    cursor: pointer;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13.57px;
+    text-align: center;
+    color: #22253b;
+  }
+
+  .link > a:hover {
+    color: #f15525;
+  }
+  .phone-and-mailto {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .phone {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    color: #38bff2;
+  }
+  .mailto {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    color: #22253b;
+  }
+  a{
+    text-decoration:none;
+  }
+  .line {
+    color: #d8d8d8;
+    height: 1px;
+    width: 93.75%;
+    padding: 0;
+    margin: 32px 7px 25px 7px;
+  }
+  .past-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 27px;
+  }
+  .text {
+    font-family: Gilroy;
+font-size: 12px;
+font-weight: 400;
+line-height: 23px;
+text-align: center;
+
+    color: #8e8e8e;
+    padding: 0;
+    margin: 0;
+  }
+  .agreement {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    width: 100%;
+  }
+  .agreement>a {
+    color: #F15525;
+    margin-top: 6px;
+  }
+  .agreement > a:hover {
+    color: #8e8e8e;
+  }
 }

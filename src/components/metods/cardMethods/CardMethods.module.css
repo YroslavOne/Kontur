@@ -34,7 +34,48 @@
   text-align: left;
 }
 
-.description >span {
-    display: block;
+.description > span {
+  display: block;
   width: 435px;
+}
+@media screen and (max-width: 576px) {
+  .div {
+    flex-direction: column;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+    margin-bottom: 12px;
+  }
+  .text {
+    width: 100%;
+  }
+  .women {
+    flex-direction: column;
+  }
+  .title {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+margin: 0;
+    padding: 30px 20px 18px 20px;
+  }
+  .description {
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    padding: 0 20px 37px 20px;
+    margin: 0;
+    width: 257px;
+  }
+
+  .description > span {
+    width: 220px;
+
+}
 }
