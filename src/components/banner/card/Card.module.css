@@ -45,8 +45,7 @@
 }
 
 .button {
-	position: relative;
-	background-color: black;
+	margin-top: 36px;
 
 }
 
@@ -113,6 +112,7 @@
 
 	.button {
 		width: 100%;
+		margin-top: 0;
 		margin-bottom: 31px;
 
 	}
