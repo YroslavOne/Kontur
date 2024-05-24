@@ -46,7 +46,18 @@ li {
   line-height: 13.57px;
   text-align: center;
   color: #22253b;
+  
 }
+a{text-decoration: none}
 .a:hover {
   color: #22253b;
+}
+.phone{
+  font-family: Gilroy;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+color: #38BFF2;
+
 }

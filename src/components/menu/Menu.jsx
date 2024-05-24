@@ -18,7 +18,7 @@ function Menu() {
           ))}
         </ul>
       </div>
-      <a href="tel:+7 (499) 348 93 96">+7 (499) 348 93 96</a>
+      <a className={styles['phone']} href="tel:+7 (499) 348 93 96">+7 (499) 348 93 96</a>
     </menu>
   );
 }
