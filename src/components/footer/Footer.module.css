@@ -1,6 +1,8 @@
 .footer {
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .logo-and-links {
   display: flex;
@@ -179,9 +181,9 @@
     align-items: center;
     margin-bottom: 43px;
   }
-.link{
+  .link {
     margin-top: 25px;
-}
+  }
   .link > a {
     cursor: pointer;
     font-family: Gilroy;
@@ -217,8 +219,8 @@
     text-align: center;
     color: #22253b;
   }
-  a{
-    text-decoration:none;
+  a {
+    text-decoration: none;
   }
   .line {
     color: #d8d8d8;
@@ -236,10 +238,10 @@
   }
   .text {
     font-family: Gilroy;
-font-size: 12px;
-font-weight: 400;
-line-height: 23px;
-text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
 
     color: #8e8e8e;
     padding: 0;
@@ -251,11 +253,15 @@ text-align: center;
     margin-top: 7px;
     width: 100%;
   }
-  .agreement>a {
-    color: #F15525;
+  .agreement > a {
+    color: #f15525;
     margin-top: 6px;
   }
   .agreement > a:hover {
     color: #8e8e8e;
+  }
+  .footer {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }

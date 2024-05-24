@@ -1,17 +1,17 @@
-import styles from './Edication.module.css';
-import Element from './element/Element';
-import { ArrEdication } from './ArrEdication';
+import styles from "./Edication.module.css";
+import Element from "./element/Element";
+import { ArrEdication } from "./ArrEdication";
 
 function Edication() {
   return (
-    <div className={styles['block']}>
-      <h1 className={styles['h1']}>
+    <div className={styles["block"]}>
+      <h1 className={styles["h1"]}>
         Обучение в CoDe – это удобно и результативно
       </h1>
-      <div className={styles['div']}>
+      <div className={styles["div"]}>
         {ArrEdication.map((el) => (
           <Element
-          className={styles['suprise']}
+            className={styles["suprise"]}
             title={el.title}
             key={el.key}
             description={el.description}
