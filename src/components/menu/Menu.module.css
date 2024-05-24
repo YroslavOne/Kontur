@@ -1,63 +1,72 @@
 menu {
-  display: flex;
-  justify-content: space-between;
-  background-color: #ffffff;
-  align-items: center;
-  padding-left: 34px;
-  padding-right: 33px;
-  border-radius: 75px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #ffffff;
+	align-items: center;
+	padding-left: 34px;
+	padding-right: 33px;
+	border-radius: 75px;
 }
 
 .logo-and {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .logo {
-  content: "";
-  background: url(../../../public/image/Logo.png);
-  width: 64px;
-  height: 25px;
-  background-repeat: no-repeat;
-  margin-right: 49px;
+	content: "";
+	background: url(../../../public/image/Logo.png);
+	width: 64px;
+	height: 25px;
+	background-repeat: no-repeat;
+	margin-right: 49px;
 }
 
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 li {
-  list-style: none;
+	list-style: none;
 }
 
 .ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 497px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 497px;
 }
 
 .a {
-  cursor: pointer;
-  font-family: Gilroy;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 13.57px;
-  text-align: center;
-  color: #22253b;
+	cursor: pointer;
+	font-family: Gilroy;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 13.57px;
+	text-align: center;
+	color: #22253b;
 }
+
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
+
 .a:hover {
-  color: #22253b;
+	color: #22253b;
 }
+
 .phone {
-  font-family: Gilroy;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 23px;
-  text-align: left;
-  color: #38bff2;
+	font-family: Gilroy;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 23px;
+	text-align: left;
+	color: #38bff2;
+}
+
+@media screen and (max-width: 576px) {
+	.menu {
+		display: none;
+	}
 }
