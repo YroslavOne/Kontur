@@ -51,4 +51,7 @@
 		text-align: center;
 		min-width: 319px;
 	}
+	.main-page{
+		padding: 0 3px;
+	}
 }

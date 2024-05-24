@@ -27,9 +27,8 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className='main-page'>
       {width > 576 ? <Menu /> : <MobMenu setOpen={setOpen} />}
-
       <Banner setCallBack={setCallBack} />
       <Edication />
       <Methods />
@@ -38,7 +37,7 @@ function App() {
       <Footer />
       {open && <ListMenu setOpen={setOpen} />}
       {callBack && <CallBack setCallBack={setCallBack}/>}
-    </>
+    </div>
   );
 }
 

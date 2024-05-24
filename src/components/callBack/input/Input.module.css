@@ -11,9 +11,10 @@
   line-height: 18.83px;
   text-align: left;
   color: #000000;
+  margin-bottom: 16px;
 }
 .div > input {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   height: 75px;
   border: 1px solid #9f9f9f;
   border-radius: 10px;
