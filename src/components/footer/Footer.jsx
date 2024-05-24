@@ -69,8 +69,9 @@ function Footer() {
           </div>
         </div>
       </div>
-
-      <hr className={styles["line"]} />
+      <div className={styles["div-for-line"]}>
+        <hr className={styles["line"]} />
+      </div>
       <div className={styles["past-line"]}>
         <div>
           <p className={styles["text"]}>© 2023 — Все права защищены</p>

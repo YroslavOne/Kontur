@@ -103,11 +103,12 @@
   color: #22253b;
 }
 .line {
-  color: #d8d8d8;
+  background-color: #d8d8d8;
   height: 1px;
   width: 100%;
   padding: 0;
   margin: 52px 0 28px 0;
+  border: none;
 }
 .past-line {
   display: flex;
@@ -222,12 +223,18 @@
   a {
     text-decoration: none;
   }
+  .div-for-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 7px 25px 7px;
+
+  }
   .line {
     color: #d8d8d8;
     height: 1px;
-    width: 93.75%;
+    width: 100%;
     padding: 0;
-    margin: 32px 7px 25px 7px;
   }
   .past-line {
     display: flex;
